@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="D:\QRTest\CarPlateKeyBoardView\library\src\main\res"/><source path="D:\QRTest\CarPlateKeyBoardView\library\build\generated\res\rs\debug"/><source path="D:\QRTest\CarPlateKeyBoardView\library\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="D:\QRTest\CarPlateKeyBoardView\library\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\QRTest\CarPlateKeyBoardView\library\src\main\res"><file name="password_divider" path="D:\QRTest\CarPlateKeyBoardView\library\src\main\res\layout\password_divider.xml" qualifiers="" type="layout"/><file name="password_ime_delbug_fixed_edit_text" path="D:\QRTest\CarPlateKeyBoardView\library\src\main\res\layout\password_ime_delbug_fixed_edit_text.xml" qualifiers="" type="layout"/><file name="password_textview" path="D:\QRTest\CarPlateKeyBoardView\library\src\main\res\layout\password_textview.xml" qualifiers="" type="layout"/><file path="D:\QRTest\CarPlateKeyBoardView\library\src\main\res\values\password_attr.xml" qualifiers=""><declare-styleable name="gridPasswordView">
+
+        <attr format="color|reference" name="textColor"/>
+        <attr format="dimension" name="textSize"/>
+
+        <attr format="color" name="borderColor"/>
+        <attr format="color" name="borderActiveColor"/>
+        <attr format="color" name="gridColor"/>
+        <attr format="dimension" name="lineWidth"/>
+
+        <attr format="integer" name="passwordLength"/>
+        <attr format="boolean" name="toUpper"/>
+        <attr format="string" name="passwordTransformation"/>
+
+        <attr format="enum" name="passwordType">
+            <enum name="numberPassword" value="0"/>
+            <enum name="textPassword" value="1"/>
+            <enum name="textVisiblePassword" value="2"/>
+            <enum name="textWebPassword" value="3"/>
+        </attr>
+
+    </declare-styleable></file><file path="D:\QRTest\CarPlateKeyBoardView\library\src\main\res\values\password_styles.xml" qualifiers=""><style name="GridPasswordView.EditText" parent="GridPasswordView.TextView">
+        <item name="android:cursorVisible">false</item>
+    </style><style name="GridPasswordView.Divider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style><style name="GridPasswordView"/><style name="GridPasswordView.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+    </style></file></source><source path="D:\QRTest\CarPlateKeyBoardView\library\build\generated\res\rs\debug"/><source path="D:\QRTest\CarPlateKeyBoardView\library\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="D:\QRTest\CarPlateKeyBoardView\library\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="gridPasswordView"><attr format="color|reference" name="textColor"/><attr format="dimension" name="textSize"/><attr format="color" name="borderColor"/><attr format="color" name="borderActiveColor"/><attr format="color" name="gridColor"/><attr format="dimension" name="lineWidth"/><attr format="integer" name="passwordLength"/><attr format="boolean" name="toUpper"/><attr format="string" name="passwordTransformation"/><attr format="enum" name="passwordType">
+            <enum name="numberPassword" value="0"/>
+            <enum name="textPassword" value="1"/>
+            <enum name="textVisiblePassword" value="2"/>
+            <enum name="textWebPassword" value="3"/>
+        </attr></declare-styleable></configuration></mergedItems></merger>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.jungly.gridpasswordview.GridPasswordView
+        android:id="@+id/gpvPlateNumber"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginTop="85px"
+        app:passwordLength="7" />
+
+
+    <Button
+        android:id="@+id/main_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gpvPlateNumber"
+        android:layout_marginTop="155px"
+        android:layout_centerHorizontal="true"
+        android:text="确定" />
+    <com.kw.lib.ui.keyboardview.XKeyboardView
+        android:id="@+id/view_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="#d1d5db"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@drawable/selector_key_background"
+        android:keyPreviewHeight="43dp"
+        android:keyPreviewLayout="@layout/key_preview_layout"
+        android:keyPreviewOffset="-43dp"
+        android:keyTextColor="#333333"
+        android:keyTextSize="16dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:shadowColor="#00000000"
+        android:shadowRadius="0.0"
+        android:visibility="gone"
+        app:deleteBackground="@drawable/selector_key_backspace_background"
+        app:deleteDrawable="@drawable/sym_keyboard_delete" />
+
+
+</RelativeLayout>
